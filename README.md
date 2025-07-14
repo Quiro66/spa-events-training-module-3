@@ -23,7 +23,7 @@ User Authentication (Login): Login system to control access.
 - Responsive Design: Minimalist user interface that adapts to different screen sizes.
 
 📂 Project Structure
-
+```
 ├── src/
 │ ├── pages/ # Partial HTML files for each view (login, users, etc.)
 │ ├── scripts/
@@ -37,7 +37,9 @@ User Authentication (Login): Login system to control access.
 │ └── styles/
 │ └── global.css # General and component styles for the application.
 └── index.html # Main HTML file for the SPA.
-⚙️ System Requirements
+```
+
+## ⚙️ System Requirements
 To run this project, you will need:
 
 Node.js (optional, but recommended if you're using JSON Server locally).
