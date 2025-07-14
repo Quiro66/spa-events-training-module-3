@@ -1,26 +1,26 @@
-🧑‍💻 Single Page Application (SPA) - User Management
+## 🧑‍💻 Single Page Application (SPA) - User Management
 This project is a robust and efficient Single Page Application (SPA), built entirely with pure JavaScript. Its main objective is to offer a complete solution for user management, including creation, listing, editing, and deletion functionality. It also incorporates a basic authentication system to control access based on user roles.
 
-✨ Key Features
+# ✨ Key Features
 User Authentication (Login): Login system to control access.
 
-Comprehensive User Management:
+- Comprehensive User Management:
 
-Listing: View all registered users.
+- Listing: View all registered users.
 
-Creation: Add new users (feature exclusively for administrators).
+- Creation: Add new users (feature exclusively for administrators).
 
-Editing: Modify existing user information.
+- Editing: Modify existing user information.
 
-Deletion: Delete users from the database.
+- Deletion: Delete users from the database.
 
-SPA Routing: Smooth navigation without page reloads thanks to the use of pushState in the browser history.
+- SPA Routing: Smooth navigation without page reloads thanks to the use of pushState in the browser history.
 
-Role Control: Differentiation of functionality and access between admin and user users.
+- Role Control: Differentiation of functionality and access between admin and user users.
 
-Data Persistence: Use of localStorage for managing sessions and other essential data.
+- Data Persistence: Use of localStorage for managing sessions and other essential data.
 
-Responsive Design: Minimalist user interface that adapts to different screen sizes.
+- Responsive Design: Minimalist user interface that adapts to different screen sizes.
 
 📂 Project Structure
 
@@ -44,7 +44,7 @@ Node.js (optional, but recommended if you're using JSON Server locally).
 
 JSON Server: A lightweight tool for simulating a RESTful API.
 
-🚀 How to Start the Project
+## 🚀 How to Start the Project
 Follow these simple steps to get the application up and running:
 
 Install JSON Server (if you don't have it installed globally):
