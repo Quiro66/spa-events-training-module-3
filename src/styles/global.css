@@ -1,0 +1,144 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+}
+
+/* Cuerpo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  background: #9f83b7;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+/* Marca */
+#navbar .navbar-brand {
+  font-weight: bold;
+  color: #222;
+}
+
+/* Links del navbar */
+#navbar .navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+#navbar .navbar-links a {
+  color: #333;
+  text-decoration: none;
+  padding: 4px 6px;
+  transition: color 0.2s;
+}
+
+#navbar .navbar-links a:hover {
+  color: #007bff;
+}
+
+/* Botón de cerrar sesión */
+#logout-btn {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 4px 10px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+#logout-btn:hover {
+  background-color: #f2f2f2;
+}
+
+/* Estilo general para enlaces y botones */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Tabla de usuarios */
+table {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+/* Encabezado */
+thead {
+  background-color: #1e3c72;
+  color: white;
+}
+
+thead th {
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Cuerpo de la tabla */
+tbody td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Acciones (editar, eliminar) */
+.actions a {
+  margin-right: 8px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.actions .btn-edit {
+  background-color: #2a5298;
+  color: white;
+}
+
+.actions .btn-delete {
+  background-color: #d9534f;
+  color: white;
+}
+
+.form {
+  width: 40%;
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  background: rgb(60, 51, 51);
+  font-size: 0.95rem;
+}

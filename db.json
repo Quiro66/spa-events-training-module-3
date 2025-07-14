@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "email": "admin@spa",
+      "phone": "1234567890",
+      "dateOfBirth": "2024-01-01",
+      "password": "1234",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Juan Pérez",
+      "email": "juan@spa.com",
+      "password": "1234",
+      "phone": "987654321",
+      "dateOfBirth": "2024-01-01",
+      "role": "user"
+    },
+    {
+      "id": "19f9",
+      "name": "example",
+      "email": "example@eample",
+      "phone": "123456789",
+      "dateOfBirth": "2025-07-01",
+      "password": "1111",
+      "role": "user"
+    },
+    {
+      "id": "7b4b",
+      "name": "juan",
+      "email": "juan@juan",
+      "phone": "123456789",
+      "dateOfBirth": "2025-07-03",
+      "password": "1234",
+      "role": "Admin"
+    },
+    {
+      "id": "675b",
+      "name": "ja@ja",
+      "email": "ja@ja",
+      "phone": "123456789",
+      "dateOfBirth": "2025-07-01",
+      "password": "1234",
+      "role": "user"
+    }
+  ],
+  "eventss": [
+    {
+      "id": "1",
+      "title": "training English",
+      "description": "training week five of the week 8",
+      "capacity": "12",
+      "date": "2025-07-03"
+    },
+    {
+      "id": "2",
+      "title": "training English",
+      "description": "training week five of the week 8",
+      "capacity": "12",
+      "date": "2025-07-03"
+    },
+    {
+      "id": "3",
+      "title": "training English",
+      "description": "training week five of the week 8",
+      "capacity": "12",
+      "date": "2025-07-03"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "2e96",
+      "userId": "7b4b",
+      "eventId": 1
+    },
+    {
+      "id": "c000",
+      "userId": "7b4b",
+      "eventId": 1
+    },
+    {
+      "id": "55f9",
+      "userId": "7b4b",
+      "eventId": 3
+    },
+    {
+      "id": "0e70",
+      "userId": "7b4b",
+      "eventId": 3
+    },
+    {
+      "id": "266f",
+      "userId": "7b4b",
+      "eventId": 1
+    },
+    {
+      "id": "be15",
+      "userId": "7b4b",
+      "eventId": 3
+    },
+    {
+      "id": "a368",
+      "userId": "675b",
+      "eventId": 1
+    }
+  ]
+}
